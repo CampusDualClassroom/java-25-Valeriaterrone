@@ -19,7 +19,6 @@ public class Exercise25 {
     }
 
     public static void main(String[] args) {
-    Stack<String> stack = createStack();
-    printAndEmptyStack(stack);  // para imprimir y vaciar la pila
+        printAndEmptyStack(createStack());
     }
 }
